@@ -1,5 +1,6 @@
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
+import 'package:flame/events.dart';
 
 class GameBackGround extends SpriteComponent with HasGameRef {
   @override
