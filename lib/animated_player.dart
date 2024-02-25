@@ -19,7 +19,7 @@ class AnimatedPlayer extends SpriteAnimationComponent
       'adventurer-Sheet.png',
       SpriteAnimationData.sequenced(
         amount: 4,
-        stepTime: 0.5,
+        stepTime: 0.2,
         textureSize: Vector2(50, 37),
       ),
     );

@@ -35,7 +35,7 @@ class MyStaticGame extends FlameGame with HasCollisionDetection {
     await add(_backGround);
 
     // 플레이어의 사이즈
-    final playerSize = Vector2(100, 100);
+    final playerSize = Vector2(130, 100);
     // 플레이어의 위치
     final playerPosition = Vector2(200, 600);
     // 플레이어의 위치 및 사이즈 input
